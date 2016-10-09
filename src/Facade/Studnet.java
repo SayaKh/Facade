@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Facade;
+package state_dp;
 
 /**
  *
- * @author aashgar
+ * @author Ghada
  */
-public interface Studnet {
-    public void show();
+public interface Student {
+    public void show(Specialty con);
+    
 }
