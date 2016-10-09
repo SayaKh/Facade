@@ -7,13 +7,14 @@ package Facade;
 
 /**
  *
- * @author aashgar
+ * @author Ghada
  */
-public class ENGStudent implements Studnet{
+public class ENGStudent implements Student{
 
     @Override
-    public void show() {
-        System.out.println("Engineering student ...");
+    public void show(Specialty con) {
+        System.out.println("Engeering Student !");
+        con.setSpecialty(this);
     }
     
 }
